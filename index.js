@@ -67,4 +67,4 @@ app.post('/publisher2', (req, res) => {
 
 
 
-app.listen(process.env.PORT, () => console.log('Server running at port'+process.env.PORT));
+app.listen(9010, () => console.log('Server running at port 9010'));
