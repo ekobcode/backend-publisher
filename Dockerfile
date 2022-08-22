@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json .
 COPY . .
 RUN npm install
-ENV EXPOSE $PORT
+EXPOSE 9010
 CMD ["npm","start"]
